@@ -1,0 +1,181 @@
+header {
+    display: flex;
+    align-items: flex-start;
+    padding: 10px;
+}
+
+.image-container{
+    margin-right: 50px;
+}
+
+#introduction-photo {
+    width: 250px;
+    height: auto;
+    border-radius: 10px;
+    box-shadow: 10px 5px 5px rgba(91, 93, 95);
+    margin-bottom: 1px;
+    
+ }
+
+.links-container{
+display: flex;
+flex-direction: column;
+gap: 50px;
+align-items: left;
+margin-right: 400px;
+
+}
+
+.my-links {
+    text-decoration: none;
+}
+
+.other-options{
+    display: flex;
+    align-items: flex-end;
+    background-color: rgb(94, 77, 109); 
+    height: 75px;
+    width: 150px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 10px 5px 5px rgba(91, 93, 95);
+    flex-direction: column;
+}
+
+#about, #projects {
+    font-size: 20px; 
+}
+
+.introduction{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding: none;
+}
+
+h1 {
+    font-size: 75px;
+    color: rgb(65, 2, 65);
+    margin-top: 1px;
+    margin-bottom: 1px;
+    display: inline;
+
+}
+
+#job-title {
+
+    margin-top: 50px;
+    font-size: 20px;
+}
+
+h2 {
+    color: rgb(65, 2, 65);
+}
+
+body {
+    background-color: rgb(146, 160, 187);
+
+    justify-content: left;
+    font: Garamond;
+}
+
+main{
+    margin-top: 50px;
+    
+}
+/*Classes are styled with .className*/
+.languages {
+    background-color: aliceblue;
+    height: 75px;
+    width: 500px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    box-shadow: 10px 5px 5px rgba(91, 93, 95);
+}
+
+.technologies {
+    background-color: aliceblue;
+    height: 200px;
+    width: 640px;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    padding: 5px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    box-shadow: 10px 5px 5px rgba(91, 93, 95);
+}
+
+.technologies ul {
+    list-style-type: none;
+    padding: 0;
+    margin-left: 35px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: left;
+    gap: 10px;
+}
+ 
+.technologies li {
+    padding: 5px 5px;
+
+}
+
+.skills {
+    background-color: aliceblue;
+    height: 75px;
+    width: 300px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: left;
+    padding: 5px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    box-shadow: 10px 5px 5px rgba(91, 93, 95);
+}
+/*id are syled with #idName*/
+
+ul{
+    list-style: none;
+    display: flex;
+}
+
+li {
+    margin-right: 30px;
+}
+
+a {
+    text-decoration: none;
+    color: aliceblue;
+}
+
+a:hover{
+    color: rgb(65, 2, 65)
+}
+
+.about-greeting{
+    font-size: 75px;
+    color: rgb(65, 2, 65);
+    align-items: center;
+}
+.bio{
+    background-color: aliceblue;
+    height: 150px;
+    width: 80%;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 5px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    box-shadow: 10px 5px 5px rgba(91, 93, 95);
+}
+
+/* Child selector
+div>ul {
+
+}*/
